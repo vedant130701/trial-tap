@@ -1,0 +1,569 @@
+{
+    "properties": {
+        "base_currency_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "base_discount_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_discount_tax_compensation_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_grand_total": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_shipping_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_shipping_discount_tax_compensation_amnt": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_shipping_incl_tax": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_shipping_tax_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_subtotal": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_subtotal_incl_tax": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_tax_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_to_global_rate": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_to_order_rate": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "base_total_refunded": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "billing_address_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "can_void_flag": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "extension_attributes": {
+            "items": {
+                "properties": {
+                    "base_customer_balance_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_gift_cards_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "customer_balance_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "gift_cards_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "gw_base_price": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_base_tax_amount": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_card_base_price": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_card_base_tax_amount": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_card_price": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_card_tax_amount": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_items_base_price": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_items_base_tax_amount": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_items_price": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_items_tax_amount": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_price": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "gw_tax_amount": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                },
+                "type": [
+                    "null",
+                    "object"
+                ]
+            },
+            "type": [
+                "null",
+                "array"
+            ]
+        },
+        "comments": {
+            "items": {
+                "properties": {
+                    "comment": {
+                        "type": "string"
+                    },
+                    "created_at": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "entity_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "extension_attributes": {
+                        "$ref": "invoices.json#/extension_attributes"
+                    },
+                    "is_customer_notified": {
+                        "type": "integer"
+                    },
+                    "is_visible_on_front": {
+                        "type": "integer"
+                    },
+                    "parent_id": {
+                        "type": "integer"
+                    }
+                },
+                "type": [
+                    "null",
+                    "object"
+                ]
+            },
+            "type": [
+                "null",
+                "array"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "discount_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "discount_description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "discount_tax_compensation_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "email_sent": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "entity_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "global_currency_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "grand_total": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "increment_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "is_used_for_refund": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "items": {
+            "items": {
+                "properties": {
+                    "additional_data": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "base_cost": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_discount_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_discount_tax_compensation_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_price": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_price_incl_tax": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_row_total": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_row_total_incl_tax": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "base_tax_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "description": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "discount_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "discount_tax_compensation_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "entity_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "extension_attributes": {
+                        "$ref": "invoices.json#/extension_attributes"
+                    },
+                    "name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "order_item_id": {
+                        "type": "integer"
+                    },
+                    "parent_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "price": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "price_incl_tax": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "product_id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "qty": {
+                        "type": "number"
+                    },
+                    "row_total": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "row_total_incl_tax": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    },
+                    "sku": {
+                        "type": "string"
+                    },
+                    "tax_amount": {
+                        "type": [
+                            "null",
+                            "number"
+                        ]
+                    }
+                },
+                "type": [
+                    "null",
+                    "object"
+                ]
+            },
+            "type": [
+                "null",
+                "array"
+            ]
+        },
+        "order_currency_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "order_id": {
+            "type": "integer"
+        },
+        "shipping_address_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "shipping_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "shipping_discount_tax_compensation_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "shipping_incl_tax": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "shipping_tax_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "state": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "store_currency_code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "store_id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "store_to_base_rate": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "store_to_order_rate": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "subtotal": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "subtotal_incl_tax": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "tax_amount": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "total_qty": {
+            "type": "number"
+        },
+        "transaction_id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    },
+    "type": [
+        "null",
+        "object"
+    ]
+}
